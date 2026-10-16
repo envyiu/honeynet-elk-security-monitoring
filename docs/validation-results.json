@@ -1,0 +1,52 @@
+{
+  "scope": "Static repository validation; no live lab deployment",
+  "checks": [
+    {
+      "check": "markdown_links_and_fences",
+      "status": "passed",
+      "detail": {
+        "markdown_files": 14,
+        "internal_references": 138
+      }
+    },
+    {
+      "check": "yaml_structure",
+      "status": "passed",
+      "detail": {
+        "yaml_files": 3,
+        "duplicate_keys": "rejected"
+      }
+    },
+    {
+      "check": "compose_structure",
+      "status": "passed",
+      "detail": "Both Compose files normalized; Dionaea mount value is syntax-only, not recovered; no services started"
+    },
+    {
+      "check": "image_integrity",
+      "status": "passed",
+      "detail": {
+        "images": 34,
+        "integrity": "SHA-256 and image decode passed"
+      }
+    },
+    {
+      "check": "source_sample_and_ini",
+      "status": "passed",
+      "detail": "Source event JSON and Cowrie listener INI parsed"
+    },
+    {
+      "check": "logstash_static_structure",
+      "status": "passed",
+      "detail": "Delimiter/static reference checks only; no Logstash plugin syntax or Grok runtime test"
+    },
+    {
+      "check": "selected_secret_and_pii_patterns",
+      "status": "passed",
+      "detail": {
+        "text_files": 24,
+        "finding": "No matches for selected secret/PII patterns; visual/manual review required for images"
+      }
+    }
+  ]
+}

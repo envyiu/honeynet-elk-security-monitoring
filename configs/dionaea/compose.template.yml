@@ -1,0 +1,17 @@
+# REFERENCE TEMPLATE, not the original container creation configuration.
+# S1 figures 2.5/2.6 prove image, container name and published ports only.
+# Container-side log destination and image digest must be recovered first.
+services:
+  dionaea:
+    image: "${DIONAEA_IMAGE:?Set the verified image reference or digest}"
+    container_name: dionaea
+    ports:
+      - "192.168.100.20:21:21"
+      - "192.168.100.20:80:80"
+      - "192.168.100.20:445:445"
+      - "192.168.100.20:1433:1433"
+      - "192.168.100.20:3306:3306"
+    volumes:
+      - type: bind
+        source: /opt/honeynet/dionaea/var-log
+        target: "${DIONAEA_LOG_TARGET:?Recover the container-side log directory}"

@@ -1,0 +1,7 @@
+# VERIFIED TRANSCRIPTION: S1 figure 2.4. Honeypot-only test credentials.
+# These are decoy authentication rules, never VM/host administrator credentials.
+root:x:!root
+root:x:!123456
+root:x:!password
+root:x:toor
+admin:x:admin123

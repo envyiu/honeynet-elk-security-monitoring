@@ -1,0 +1,25 @@
+# Original sources contain academic personal information; retain locally only.
+/*.docx
+/lenh_test_Kibana.txt
+/lenh_thuc_nghiem_5_kich_ban_honeynet.txt
+.private-review/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+__pycache__/
+.venv/
+venv/
+node_modules/
+.DS_Store
+*.vmdk
+*.vmem
+*.vmss
+*.vmx
+*.iso
+esdata/
+var-log/
+*.log

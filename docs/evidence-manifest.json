@@ -1,0 +1,308 @@
+[
+  {
+    "path": "docs/architecture.png",
+    "source": "S1",
+    "figure": "2.1",
+    "source_member": "word/media/image2.png",
+    "caption": "Original three-VM architecture",
+    "sha256": "f953340642328f7b94fd715844cea0a9b29a1cf675a56b6b184a9330a1ff4292",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/infrastructure/vmware-host-only-network.png",
+    "source": "S1",
+    "figure": "2.2",
+    "source_member": "word/media/image3.png",
+    "caption": "VMnet3 subnet",
+    "sha256": "d4423366696f49c647fae0d2704f65bd86eedeed845c96c1ca58e0582e9c6af2",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/cowrie/ssh-listener.png",
+    "source": "S1",
+    "figure": "2.3",
+    "source_member": "word/media/image4.png",
+    "caption": "Cowrie listener excerpt",
+    "sha256": "81bbd0e13641a4ab7f5634faca020d2ddfe8890febb4e75a098dc2633e37be07",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/cowrie/lab-userdb.png",
+    "source": "S1",
+    "figure": "2.4",
+    "source_member": "word/media/image5.png",
+    "caption": "Honeypot test credentials",
+    "sha256": "69db72e5d26f421d6612f9317d4a921cbc9270deb3f3d9136dd836f60ee2e2b1",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/dionaea/listening-ports.png",
+    "source": "S1",
+    "figure": "2.5",
+    "source_member": "word/media/image6.png",
+    "caption": "Published service ports",
+    "sha256": "659a6265f3d87ec6aebd97be4f7ecb413a180ea95c0a9f7dccd179cd93ec501f",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/dionaea/container-and-source-log.png",
+    "source": "S1",
+    "figure": "2.6",
+    "source_member": "word/media/image7.png",
+    "caption": "Container and persistent host log",
+    "sha256": "fd22248527d131176b899de85d1adf3022c4cef83cd62e103d08ae6f6158db2c",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/filebeat-configuration.png",
+    "source": "S1",
+    "figure": "2.7",
+    "source_member": "word/media/image8.png",
+    "caption": "Filebeat configuration",
+    "sha256": "eb9abd722fe63c326e035f45318f2013685b73b41bf3b7c11fd0d177776cfdc3",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/logstash-input-filter.png",
+    "source": "S1",
+    "figure": "2.8",
+    "source_member": "word/media/image9.png",
+    "caption": "Logstash input and filter",
+    "sha256": "fbd49e40bf52ad36df119d99f54b2f4ba2eb30baa193fab224ba23e90551cd31",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/logstash-output.png",
+    "source": "S1",
+    "figure": "2.9",
+    "source_member": "word/media/image10.png",
+    "caption": "Logstash output",
+    "sha256": "e8ab5f0456745a6ce06b17df463f5f54854a67f6a7c605a833b171f4b343b606",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/compose-elasticsearch.png",
+    "source": "S1",
+    "figure": "2.10",
+    "source_member": "word/media/image11.png",
+    "caption": "Elasticsearch Compose section",
+    "sha256": "ea6d93bdb9e920b0fae82604a7e7db8a13427b743947846685bbd4afa1a01fba",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/compose-logstash-kibana.png",
+    "source": "S1",
+    "figure": "2.11",
+    "source_member": "word/media/image12.png",
+    "caption": "Logstash and Kibana Compose sections",
+    "sha256": "c37bcd96a6a0e1bcffac60358ff742d4c8d2cb9d54bb3bc05ec7ab40938a28b3",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/kibana-data-view.png",
+    "source": "S1",
+    "figure": "2.12",
+    "source_member": "word/media/image13.png",
+    "caption": "Honeynet data view",
+    "sha256": "43af980fce42d5eb5e8cec3fd2a1c1e6b043847b02ce45a49ff04e43be7ca571",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/filebeat-output-test.png",
+    "source": "S1",
+    "figure": "2.13",
+    "source_member": "word/media/image14.png",
+    "caption": "Historical Filebeat output test",
+    "sha256": "5df9ceffdc14bda0808eb268a382a5500171ae7e2703b2154e9a96e51575e930",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/infrastructure/elastic-stack-status.png",
+    "source": "S1",
+    "figure": "2.14",
+    "source_member": "word/media/image15.png",
+    "caption": "Historical container status",
+    "sha256": "2c3814511f5e9a319e6f504d5fecd9bc3ede2a989b791950c77142926aa9ee75",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/dionaea/nmap-service-scan.png",
+    "source": "S1",
+    "figure": "3.1",
+    "source_member": "word/media/image16.png",
+    "caption": "Nmap service scan",
+    "sha256": "d580eb2269bd0b52273acd06be261ad9cedf68c1f73d93efdd1e8042a4589ae7",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/dionaea/kibana-scan-events.png",
+    "source": "S1",
+    "figure": "3.2",
+    "source_member": "word/media/image17.png",
+    "caption": "Dionaea scan events",
+    "sha256": "94f5bf8a67af9cf48f7337597122f09ce9cb588e82f35d3f423b317c2e5c0f15",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/cowrie/ssh-authentication-client.png",
+    "source": "S1",
+    "figure": "3.3",
+    "source_member": "word/media/image18.png",
+    "caption": "SSH client authentication",
+    "sha256": "6e319bf7aef2a376f1afbd3eaaa6b858ce97099c0e3fa7124bf29edb02a10d15",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/cowrie/kibana-authentication-events.png",
+    "source": "S1",
+    "figure": "3.4",
+    "source_member": "word/media/image19.png",
+    "caption": "Authentication outcomes",
+    "sha256": "d7e22d57e314a0aa57ec8d1fc91be960e2103e557807736ac1f99916cf75c031",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/cowrie/simulated-shell-client.png",
+    "source": "S1",
+    "figure": "3.5",
+    "source_member": "word/media/image20.png",
+    "caption": "Emulated shell interaction",
+    "sha256": "b3c535105610e22591ba406366c78760936aca87931dd3b44f6aad7dd5080d01",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/cowrie/kibana-command-events.png",
+    "source": "S1",
+    "figure": "3.6",
+    "source_member": "word/media/image21.png",
+    "caption": "Command events grouped by session",
+    "sha256": "c72370ec0bfb845b01ba0d5355a8af8d0e98cd19b2509cb7ccdfe8119321e68d",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/dionaea/http-marker-client.png",
+    "source": "S1",
+    "figure": "3.7",
+    "source_member": "word/media/image22.png",
+    "caption": "HTTP marker request and 404 response",
+    "sha256": "804104a3e4b3b9fb68de6aeb545d60b75ddc2b7e38f463ad399c4b7ea7ce5f3c",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/dionaea/kibana-http-marker.png",
+    "source": "S1",
+    "figure": "3.8",
+    "source_member": "word/media/image23.png",
+    "caption": "HTTP marker in Discover",
+    "sha256": "d3519c73e5086a6328062488c3b47dd42ef40f5bd83fa48f3a3c752375221689",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/dionaea/ftp-client.png",
+    "source": "S1",
+    "figure": "3.9",
+    "source_member": "word/media/image24.png",
+    "caption": "FTP connection",
+    "sha256": "6eb1cca60fc4957bef629f87eeb71962c92164f44a0f744bfa933bfc8217bad2",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/dionaea/kibana-ftp-event.png",
+    "source": "S1",
+    "figure": "3.10",
+    "source_member": "word/media/image25.png",
+    "caption": "FTP event with parsed fields",
+    "sha256": "b6378b01b4e29711b8a0a9ede4891d711de5add7bcd93a5bfb926c754151c085",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/cowrie/pipeline-marker-client.png",
+    "source": "S1",
+    "figure": "3.11",
+    "source_member": "word/media/image26.png",
+    "caption": "Marker entered into Cowrie",
+    "sha256": "3c8989b8f77de529ddbca8a8884a0dae40d9a6f17a7daa9f7d54c36f30a9caab",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/cowrie/pipeline-marker-source-log.png",
+    "source": "S1",
+    "figure": "3.12",
+    "source_member": "word/media/image27.png",
+    "caption": "Original Cowrie marker JSON",
+    "sha256": "b29cc720809059becb809475137be4620f4d30a435b7bfc344daeb2b82ab53f4",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/pipeline-filebeat-output.png",
+    "source": "S1",
+    "figure": "3.13",
+    "source_member": "word/media/image28.png",
+    "caption": "Filebeat connection during pipeline experiment",
+    "sha256": "20cca5afa7d98d9ed879ec056379dae5d5914f88fc2e72b65496e5af32abc55d",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/pipeline-logstash-event.png",
+    "source": "S1",
+    "figure": "3.14",
+    "source_member": "word/media/image29.png",
+    "caption": "Namespaced marker at Logstash",
+    "sha256": "6df62acee2112e84003c726295ae629cd33afa4a46de0e4fd1c94426c14b58f4",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/pipeline-elasticsearch-hit.png",
+    "source": "S1",
+    "figure": "3.15",
+    "source_member": "word/media/image30.png",
+    "caption": "Marker search hit in Elasticsearch",
+    "sha256": "1d2656942dfde0fb7c88e80e884b2a24e8a3bcf47d3548ed38b87da83a74bfb7",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/pipeline-kibana-marker.png",
+    "source": "S1",
+    "figure": "3.16",
+    "source_member": "word/media/image31.png",
+    "caption": "Marker in Kibana Discover",
+    "sha256": "391ac886642e4192a00809b236851e5b218a509e253fe4af07799fb150b84470",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/infrastructure/cowrie-dependencies.png",
+    "source": "S1",
+    "figure": "PL.1",
+    "source_member": "word/media/image32.png",
+    "caption": "Cowrie package dependencies",
+    "sha256": "4dd847db69f80ae38b844743b3c278d228d7332ed2d439a3b6e38aa9224a9acb",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/cowrie/python-environment-installation.png",
+    "source": "S1",
+    "figure": "PL.2",
+    "source_member": "word/media/image33.png",
+    "caption": "Cowrie virtual environment installation",
+    "sha256": "876e07d16e1e6c81c13eeb4a4b187b78585588daa5d8b06683b7612e35f1e578",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/elk/filebeat-package-installation.png",
+    "source": "S1",
+    "figure": "PL.6",
+    "source_member": "word/media/image37.png",
+    "caption": "Filebeat 9.5.4 package",
+    "sha256": "b2b32960d2f492dcc0e937e0e01b2547ee8cd692c78d58bdaa28ed4e67d8659c",
+    "transformation": "none; original embedded image bytes"
+  },
+  {
+    "path": "screenshots/infrastructure/elasticsearch-kernel-setting.png",
+    "source": "S1",
+    "figure": "PL.8",
+    "source_member": "word/media/image39.png",
+    "caption": "Kernel setting and Docker version",
+    "sha256": "e8acb6151dd1f0034f3364d912f21f774da4ccbf4fb9a7694958740b4312d668",
+    "transformation": "none; original embedded image bytes"
+  }
+]

@@ -1,0 +1,28 @@
+# VERIFIED TRANSCRIPTION: S1 figure 2.7; comments added for provenance.
+filebeat.inputs:
+  - type: filestream
+    id: cowrie-json
+    enabled: true
+    paths:
+      - /home/cowrie/my-honeypot/var/log/cowrie/cowrie.json
+    parsers:
+      - ndjson:
+          target: "cowrie"
+          overwrite_keys: true
+          add_error_key: true
+    fields:
+      honeypot: cowrie
+    fields_under_root: true
+
+  - type: filestream
+    id: dionaea-log
+    enabled: true
+    paths:
+      - /opt/honeynet/dionaea/var-log/dionaea/*.log
+    fields:
+      honeypot: dionaea
+    fields_under_root: true
+
+output.logstash:
+  hosts:
+    - "192.168.100.30:5044"

@@ -1,0 +1,14 @@
+{
+  "session": "279acf641142",
+  "protocol": "ssh",
+  "src_ip": "192.168.100.10",
+  "src_port": 42742,
+  "dst_ip": "192.168.100.20",
+  "dst_port": 2222,
+  "input": "echo PIPELINE-DEMO-001",
+  "eventid": "cowrie.command.input",
+  "sensor": "honeypot-server-VMware-Virtual-Platform",
+  "uuid": "d8e71d7d-b8f8-11f1-b9fc-000c298c5d20",
+  "timestamp": "2026-09-29T02:10:22.564012Z",
+  "message": "CMD: echo PIPELINE-DEMO-001"
+}

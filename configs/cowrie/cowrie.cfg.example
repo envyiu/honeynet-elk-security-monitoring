@@ -1,0 +1,4 @@
+# VERIFIED EXCERPT: S1 figure 2.3; section header supplied for context.
+# Merge into the installed Cowrie configuration; this is not a full cowrie.cfg.
+[ssh]
+listen_endpoints = tcp:2222:interface=192.168.100.20
